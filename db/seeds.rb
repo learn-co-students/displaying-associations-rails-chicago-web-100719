@@ -5,3 +5,15 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+# Post.destroy_all
+# Category.destroy_all
+# Author.destroy_all
+# goodposts = Author.create!(name: "GoodPosts", bio: "A collection of very good posts written by real humans")
+# moviecritic = Author.create!(name: "The Movie Critic", bio: "I love movies!")
+# clickbait = Category.create!(name: "Motivation")
+# clickbait.posts.create!(title: "10 Ways You Are Already Awesome", author: goodposts)
+# clickbait.posts.create!(title: "This Yoga Stretch Cures Procrastination, Maybe", author: goodposts)
+# clickbait.posts.create!(title: "The Power of Positive Thinking and 100 Gallons of Coffee", author: goodposts)
+# movies = Category.create!(name: "Movies")
+# movies.posts.create!(title: "Top 20 Summer Blockbusters Featuring a Cute Dog", author: moviecritic)
+ 
