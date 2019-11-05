@@ -11,4 +11,4 @@ clickbait.posts.create!(title: "This Yoga Stretch Cures Procrastination, Maybe")
 clickbait.posts.create!(title: "The Power of Positive Thinking and 100 Gallons of Coffee")
  
 movies = Category.create!(name: "Movies")
-movies.posts.create!(title: "Top 20 Summer Blockbusters Featuring a Cute Dog")
+movies.posts.create!(title: "Top 20 Summer Blockbusters Featuring a Cute Dog")l
